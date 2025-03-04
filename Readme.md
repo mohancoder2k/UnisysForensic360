@@ -99,9 +99,9 @@ GET /get-images/{case_id}
 ---
 
 ## 🤝 Contributors
-- **Mohan B (Developer) **
+- **Mohan B (Developer)**
 - **Emmanuel Matthew (Developer)**
-- **Swetha G  (Developer) **
-- ** Wilson Bernard (Developer)**
+- **Swetha G  (Developer)**
+- **Wilson Bernard (Developer)**
 
 Let's revolutionize forensic analysis with technology! 🚀

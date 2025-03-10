@@ -23,7 +23,7 @@ os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 app = FastAPI()
 
 # Initialize Gemini AI
-API_KEY = "AIzaSyBeiWHaYvnICWOQfY5U2PcEr1zfyTy2M4c"
+API_KEY = "YOUR-API-KEY"
 genai.configure(api_key=API_KEY)
 model_gemini = genai.GenerativeModel("gemini-1.5-pro")
 
@@ -61,9 +61,9 @@ transform = transforms.Compose([
 def get_db_connection():
     return mysql.connector.connect(
         host="localhost",
-        user="root",
-        password="Manu@2006",
-        database="unisys"
+        user="your-username",
+        password="your-password",
+        database="your-database-name"
     )
 
 class CaseCreate(BaseModel):

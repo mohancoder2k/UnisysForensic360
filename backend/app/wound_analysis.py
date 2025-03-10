@@ -6,7 +6,7 @@ import numpy as np
 import imutils
 from skimage.measure import label, regionprops
 
-API_KEY = "AIzaSyBeiWHaYvnICWOQfY5U2PcEr1zfyTy2M4c"
+API_KEY = "Your-API-Key"
 API_URL = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent"
 
 def encode_image(image_path):
